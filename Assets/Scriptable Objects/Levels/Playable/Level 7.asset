@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bed4a67fd2b7c4da418fa7afa823f4, type: 3}
+  m_Name: Level 7
+  m_EditorClassIdentifier: 
+  tutorialInfoSteps:
+  - Text: And because what's a game without keys...
+    PlaceToAppear: 0
+    DelayToAppear: 0
+    DelayToDisappear: 5
+  - Text: You guessed it, you need keys to unlock doors!
+    PlaceToAppear: 1
+    DelayToAppear: 3
+    DelayToDisappear: 5
+  WaitUntilTutorialIsOverToStart: 0
+  Size: {x: 0, y: 0}
+  Grid:
+  - Cells:
+    - {fileID: 11400000, guid: e4313e9411ab26d4190746f70f09ebb7, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: 5039aa0920024024ea11b2cf3dbe45dc, type: 2}
+    - {fileID: 11400000, guid: 136d88557bcafde4fa672da268892dc3, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: f2b10719c02884840bd7760c3d0b96ec, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+  - Cells:
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: f326b16438b7cbd4b8a255b123cac499, type: 2}
+    - {fileID: 11400000, guid: 9ab65341703fbff4da2ea7c5bd58335c, type: 2}
+    - {fileID: 11400000, guid: e5a88144446e9ff4cbd5dc1e5289f5dd, type: 2}
