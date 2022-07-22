@@ -14,7 +14,7 @@ public abstract class LevelSpawner : MonoBehaviour {
 
 	protected Transform levelParentGO { get; set; }
 
-	protected virtual float waitTimeBetweenDespawningObjects => 0.07f;
+	protected virtual float waitTimeBetweenDespawningObjects => 0.005f;
 	protected virtual bool useLocalScale => false;
 
 
