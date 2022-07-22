@@ -46,7 +46,7 @@ namespace NormalMode.Environment {
 	public class Key : EnvironmentObject {
 		public override (MoveValidity canMove, MoveResult onAfterMove) TryMove() {
 			// TODO: Play SFX
-			// TODO: KeysAmount++;
+			LevelManager.instance.KeysAmount++;
 
 			// Destroy the key's renderer and leave the 'DefaultFloor' for the next time the player walks into the cell.
 			Destroy(this.GetComponentInChildren<Renderer>());
@@ -59,7 +59,7 @@ namespace NormalMode.Environment {
 	public class Door : EnvironmentObject {
 		public override (MoveValidity canMove, MoveResult onAfterMove) TryMove() {
 			// TODO: Play SFX
-			// TODO: KeysAmount--;
+			LevelManager.instance.KeysAmount--;
 
 			foreach (var c in this.GetComponentsInChildren<Renderer>()) { Destroy(c); }
 			Destroy(this);
