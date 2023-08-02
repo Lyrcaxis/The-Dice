@@ -1,6 +1,6 @@
 # The-Dice
 
-Small game for GMTK 2022 Jam. Comes with a level editor that allows creating UI and playable levels.
+Small game for GMTK 2022 Jam. Comes with a level editor that allows creating UI and playable levels. ([Browser version here](https://lyrcaxis.itch.io/the-dice))
 
 ## Videos:
 
